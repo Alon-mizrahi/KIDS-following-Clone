@@ -5,13 +5,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public float PlayerSpeed;
-    Vector3 direction;
-
+    public float EnemySpeed;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+     
     }
 
     // Update is called once per frame
@@ -21,3 +20,9 @@ public class GameManager : MonoBehaviour
     }
 
 }
+
+//set up and instantiate lots of enemies.
+// try make endless, as player moves insatiate floor and enemys, outside of camera.
+//imrpove follow function. not change position but move from current position towards enemy and stop with collider
+// update repo and give credit if use brackeys tut
+//comment nicely
